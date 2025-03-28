@@ -1,7 +1,14 @@
 import "./App.css";
+import TouristSection from "./components/TouristSection";
 
 function App() {
-  return <div className="text-blue-400">Hello</div>;
+  return (
+    <>
+      <section>
+        <TouristSection />
+      </section>
+    </>
+  );
 }
 
 export default App;
